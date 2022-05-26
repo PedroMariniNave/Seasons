@@ -1,0 +1,5 @@
+name: Seasons
+description: Only a simple seasons plugin.
+version: 1.0
+author: zPedroo_
+main: com.zpedroo.seasons.VoltzSeasons

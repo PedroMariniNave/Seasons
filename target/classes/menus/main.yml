@@ -1,0 +1,41 @@
+Inventory:
+  title: "Temporada"
+  size: 27
+  items:
+    1:
+      type: SKULL_ITEM
+      owner: "{player}"
+      name: "&e{player}"
+      lore:
+        - '&7Abaixo estão suas informações:'
+        - ''
+        - ' &8▶ &7Dinheiro acumulado: &2R$&a{points}'
+      slot: 11
+    2:
+      type: SKULL_ITEM
+      owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGUxMDMwMTBkYmUyZGIyYWEwMzczZTYwYTgzZGRlNWJkY2I3NTg0OGM2ZmM3NzU4MzI2ZmVjZjczNDU5NDVlIn19fQ==
+      name: "&eComo funciona?"
+      lore:
+        - '&7Sempre que uma &ftemporada &7for &ffinalizada&7,'
+        - '&7os &f3 &7jogadores que mais &facumularam'
+        - '&fdinheiro &7irão &freceber &7esse &fvalor&7!'
+        - ''
+        - '&7O dinheiro será transferido via &fPIX&7, &fPayPal &7ou &fMercadoPago&7!'
+        - '&7Nenhum outro método será disponibilizado.'
+        - ''
+        - '&7Essa temporada finaliza em:'
+        - ''
+        - ' &8▶ &f{remaining_time}'
+      slot: 13
+    3:
+      action: TOP
+      type: SKULL_ITEM
+      owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjRhZjhkNTc1ZjBhNTI0ZWY2NmEyMTU3M2U4YTRhOGFjN2Q2NDBiMDBkOThlMmU5Mzc0ZTYwNDcwZTdjODZmMCJ9fX0=
+      name: "&eJogadores mais ricos"
+      lore:
+        - '&7Nesse menu você poderá ver'
+        - '&7os jogadores que mais acumularam'
+        - '&7dinheiro nessa temporada!'
+        - ''
+        - '&7Clique para acessar!'
+      slot: 15

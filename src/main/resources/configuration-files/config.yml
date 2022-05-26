@@ -1,0 +1,49 @@
+MySQL:
+  enabled: false
+  host: 'localhost'
+  database: 'db'
+  username: 'user'
+  password: 'pass'
+  port: 3306
+
+Settings:
+  command: season
+  aliases: [seasons, temporada, temporadas]
+  save-interval: 300 # seconds
+  date-format: 'dd/MM/yyyy HH:mm'
+  finish-date: '01/06/2022 23:59'
+  admin-permission: 'seasons.admin'
+
+Messages:
+  only-owner: '&6&lVoltz&f&lMC &8&l➜ &cApenas o dono desse dinheiro pode ativá-lo! ({owner})'
+  finished-season-kick:
+    - '&6&lVoltz&f&lMC'
+    - ''
+    - '&cA temporada foi finalizada!'
+    - '&cAguarde o reset e a entrega das'
+    - '&crecompensas para jogar novamente.'
+    - ''
+    - '&cSaiba quando o servidor vai ser liberado'
+    - '&centrando no nosso Discord!'
+    - ''
+    - '&cDiscord: https://voltzmc.com/discord'
+
+Points-Item:
+  type: SKULL_ITEM
+  owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTgzMmZkYzM4ZTZhOGUwNWVlYzM5NmJhZmIwYTgxZjkzN2E2MTdmMTVhNzUwOWQ4NWRjOTgyZGJmMGFiNWE5ZiJ9fX0=
+  name: '&7Dinheiro &8- &2R$&a{amount} &7(Botão direito)'
+  lore:
+    - '&7Ative esse item para aumentar'
+    - '&7o seu dinheiro acumulado nessa'
+    - '&7temporada!'
+
+Time-Formatter:
+  second: '&7segundo&f'
+  seconds: '&7segundos&f'
+  minute: '&7minuto&f'
+  minutes: '&7minutos&f'
+  hour: '&7hora&f'
+  hours: '&7horas&f'
+  day: '&7dia&f'
+  days: '&7dias&f'
+  now: '&cFinalizando temporada...'

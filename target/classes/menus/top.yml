@@ -1,0 +1,14 @@
+Inventory:
+  title: "Temporada"
+  size: 27
+  slots: 12,13,14
+
+Item:
+  type: SKULL_ITEM
+  owner: "{player}"
+  name: "&e{player} &7[&f{pos}º&7]"
+  lore:
+    - '&7Abaixo estão as informações'
+    - '&7do jogador:'
+    - ''
+    - ' &8▶ &7Dinheiro acumulado: &2R$&a{points}'
